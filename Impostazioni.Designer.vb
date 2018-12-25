@@ -125,6 +125,7 @@ Partial Class Impostazioni
         'Label3
         '
         Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.White
         Me.Label3.Location = New System.Drawing.Point(24, 65)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(140, 17)
@@ -133,6 +134,7 @@ Partial Class Impostazioni
         '
         'TextBox1
         '
+        Me.TextBox1.BackColor = System.Drawing.Color.White
         Me.TextBox1.Location = New System.Drawing.Point(170, 62)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.ReadOnly = True
@@ -227,6 +229,7 @@ Partial Class Impostazioni
         '
         'TextBox5
         '
+        Me.TextBox5.BackColor = System.Drawing.Color.White
         Me.TextBox5.Location = New System.Drawing.Point(171, 158)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.ReadOnly = True
@@ -245,6 +248,7 @@ Partial Class Impostazioni
         '
         'TextBox4
         '
+        Me.TextBox4.BackColor = System.Drawing.Color.White
         Me.TextBox4.Location = New System.Drawing.Point(171, 126)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.ReadOnly = True
@@ -263,6 +267,7 @@ Partial Class Impostazioni
         '
         'TextBox3
         '
+        Me.TextBox3.BackColor = System.Drawing.Color.White
         Me.TextBox3.Location = New System.Drawing.Point(171, 94)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.ReadOnly = True
@@ -281,6 +286,7 @@ Partial Class Impostazioni
         '
         'TextBox2
         '
+        Me.TextBox2.BackColor = System.Drawing.Color.White
         Me.TextBox2.Location = New System.Drawing.Point(170, 30)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.ReadOnly = True
@@ -309,6 +315,7 @@ Partial Class Impostazioni
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 17.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(832, 530)
         Me.Controls.Add(Me.lnkAvanti)
         Me.Controls.Add(Me.GroupBox1)
